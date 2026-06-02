@@ -13,6 +13,10 @@ class book:
         else:
             print("The book is short.")
 
+    def book_length(self):
+        print("The length of the book is", self.no_of_pages)
+
 b1=book("sherlock holmes", "aurthor conan doyle", 200)
 b1.book_details()
 b1.book_size()
+b1.book_length()
